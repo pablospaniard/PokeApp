@@ -20,8 +20,8 @@
     "test": "react-scripts test --env=jsdom",
     "test:ci": "CI=true react-scripts test --env=jsdom --runInBand",
     "eject": "react-scripts eject",
-    "pre-commit": "lint-staged",
-    "pre-push": "yarn test:ci"
+    "precommit": "lint-staged",
+    "prepush": "yarn test:ci"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
