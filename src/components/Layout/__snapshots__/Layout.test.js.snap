@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout_snapshot_1 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Layout
+    err={null}
+    loading={false}
+    pokemons={Object {}}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Unknown>
+        <WithStyles(Grid)
+                item={true}
+                style={
+                        Object {
+                                "display": "flex",
+                                "justifyContent": "space-between",
+                              }
+                }
+                xs={12}
+        >
+                <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        variant="outlined"
+                >
+                        Get Pokemons
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        variant="outlined"
+                >
+                        Delete Pokemons
+                </WithStyles(Button)>
+        </WithStyles(Grid)>
+</Unknown>,
+      "className": "App",
+      "container": true,
+      "direction": "column",
+      "justify": "center",
+      "style": Object {
+        "margin": "auto",
+        "width": "25%",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <WithStyles(Grid)
+          item={true}
+          style={
+                    Object {
+                              "display": "flex",
+                              "justifyContent": "space-between",
+                            }
+          }
+          xs={12}
+>
+          <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                    variant="outlined"
+          >
+                    Get Pokemons
+          </WithStyles(Button)>
+          <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                    variant="outlined"
+          >
+                    Delete Pokemons
+          </WithStyles(Button)>
+</WithStyles(Grid)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              variant="outlined"
+>
+              Get Pokemons
+</WithStyles(Button)>,
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+              variant="outlined"
+>
+              Delete Pokemons
+</WithStyles(Button)>,
+          ],
+          "item": true,
+          "style": Object {
+            "display": "flex",
+            "justifyContent": "space-between",
+          },
+          "xs": 12,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Get Pokemons",
+              "color": "primary",
+              "onClick": [Function],
+              "variant": "outlined",
+            },
+            "ref": null,
+            "rendered": "Get Pokemons",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Delete Pokemons",
+              "color": "primary",
+              "onClick": [Function],
+              "variant": "outlined",
+            },
+            "ref": null,
+            "rendered": "Delete Pokemons",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": Symbol(react.fragment),
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Unknown>
+          <WithStyles(Grid)
+                    item={true}
+                    style={
+                              Object {
+                                        "display": "flex",
+                                        "justifyContent": "space-between",
+                                      }
+                    }
+                    xs={12}
+          >
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                              variant="outlined"
+                    >
+                              Get Pokemons
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                              variant="outlined"
+                    >
+                              Delete Pokemons
+                    </WithStyles(Button)>
+          </WithStyles(Grid)>
+</Unknown>,
+        "className": "App",
+        "container": true,
+        "direction": "column",
+        "justify": "center",
+        "style": Object {
+          "margin": "auto",
+          "width": "25%",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <WithStyles(Grid)
+            item={true}
+            style={
+                        Object {
+                                    "display": "flex",
+                                    "justifyContent": "space-between",
+                                  }
+            }
+            xs={12}
+>
+            <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        variant="outlined"
+            >
+                        Get Pokemons
+            </WithStyles(Button)>
+            <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        variant="outlined"
+            >
+                        Delete Pokemons
+            </WithStyles(Button)>
+</WithStyles(Grid)>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+                variant="outlined"
+>
+                Get Pokemons
+</WithStyles(Button)>,
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+                variant="outlined"
+>
+                Delete Pokemons
+</WithStyles(Button)>,
+            ],
+            "item": true,
+            "style": Object {
+              "display": "flex",
+              "justifyContent": "space-between",
+            },
+            "xs": 12,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Get Pokemons",
+                "color": "primary",
+                "onClick": [Function],
+                "variant": "outlined",
+              },
+              "ref": null,
+              "rendered": "Get Pokemons",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delete Pokemons",
+                "color": "primary",
+                "onClick": [Function],
+                "variant": "outlined",
+              },
+              "ref": null,
+              "rendered": "Delete Pokemons",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": Symbol(react.fragment),
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {LinearProgress, Card, CardContent, Typography} from '@material-ui/core'
 
 const PokemonSummary = props => {
@@ -17,6 +18,11 @@ const PokemonSummary = props => {
   )
   const content = !loading ? html : <LinearProgress />
   return content
+}
+
+PokemonSummary.propTypes = {
+  details: PropTypes.object,
+  loading: PropTypes.bool
 }
 
 export default PokemonSummary

@@ -25,6 +25,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
     "eslint": "^5.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-json": "^1.2.0",

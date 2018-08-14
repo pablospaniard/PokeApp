@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonSummary_snapshot_1 1`] = `
+<div
+  class="MuiPaper-root-2 MuiPaper-elevation1-5 MuiPaper-rounded-3 MuiCard-root-1"
+>
+  <div
+    class="MuiCardContent-root-29"
+  >
+    <h3
+      class="MuiTypography-root-30 MuiTypography-subheading-37"
+      style="margin: 10px;"
+    >
+      Height: undefined, Weight: undefined
+    </h3>
+    <h3
+      class="MuiTypography-root-30 MuiTypography-subheading-37"
+      style="margin: 10px;"
+    >
+      Base experience: undefined
+    </h3>
+  </div>
+</div>
+`;
