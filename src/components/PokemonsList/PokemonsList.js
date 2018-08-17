@@ -1,13 +1,9 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {List, ListItem, ListItemText, Grid} from '@material-ui/core'
-import styled from 'styled-components'
 
+import styles from './PokemonsList.scss'
 import PokemonSummary from '../PokemonSummary/PokemonSummary'
-
-const StyledListItemText = styled(ListItemText)`
-  text-transform: capitalize;
-`
 
 class PokemonsList extends Component {
   state = {
@@ -25,15 +21,18 @@ class PokemonsList extends Component {
     const {loading, details} = this.props
     const {selected} = this.state
     return (
-      <List>
+      <List style={{padding: 0}}>
         {this.props.pokemons.map((pokemon, i) => (
           <Grid key={i}>
-            <ListItem onClick={() => this.onPokemonClickHandler(pokemon)}>
-              <StyledListItemText
-                style={{textAlign: 'center', cursor: 'pointer'}}
-              >
+            <ListItem
+              onClick={() => this.onPokemonClickHandler(pokemon)}
+              className={` ${styles.ListItem} ${
+                loading ? styles.Disabled : null
+              }`}
+            >
+              <ListItemText className={styles.Text}>
                 {pokemon.name}
-              </StyledListItemText>
+              </ListItemText>
             </ListItem>
             {selected === pokemon.name ? (
               <PokemonSummary loading={loading} details={details} />

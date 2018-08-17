@@ -31,20 +31,15 @@ ShallowWrapper {
                 }
                 xs={12}
         >
-                <WithStyles(Button)
-                        color="primary"
+                <Unknown
+                        green={true}
                         onClick={[Function]}
-                        variant="outlined"
-                >
-                        Get Pokemons
-                </WithStyles(Button)>
-                <WithStyles(Button)
-                        color="primary"
+                        text="Get Pokemons"
+                />
+                <Unknown
                         onClick={[Function]}
-                        variant="outlined"
-                >
-                        Delete Pokemons
-                </WithStyles(Button)>
+                        text="Delete Pokemons"
+                />
         </WithStyles(Grid)>
 </Unknown>,
       "className": "App",
@@ -72,20 +67,15 @@ ShallowWrapper {
           }
           xs={12}
 >
-          <WithStyles(Button)
-                    color="primary"
+          <Unknown
+                    green={true}
                     onClick={[Function]}
-                    variant="outlined"
-          >
-                    Get Pokemons
-          </WithStyles(Button)>
-          <WithStyles(Button)
-                    color="primary"
+                    text="Get Pokemons"
+          />
+          <Unknown
                     onClick={[Function]}
-                    variant="outlined"
-          >
-                    Delete Pokemons
-          </WithStyles(Button)>
+                    text="Delete Pokemons"
+          />
 </WithStyles(Grid)>,
       },
       "ref": null,
@@ -95,20 +85,15 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": Array [
-            <WithStyles(Button)
-              color="primary"
+            <Unknown
+              green={true}
               onClick={[Function]}
-              variant="outlined"
->
-              Get Pokemons
-</WithStyles(Button)>,
-            <WithStyles(Button)
-              color="primary"
+              text="Get Pokemons"
+/>,
+            <Unknown
               onClick={[Function]}
-              variant="outlined"
->
-              Delete Pokemons
-</WithStyles(Button)>,
+              text="Delete Pokemons"
+/>,
           ],
           "item": true,
           "style": Object {
@@ -122,29 +107,26 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "Get Pokemons",
-              "color": "primary",
+              "green": true,
               "onClick": [Function],
-              "variant": "outlined",
+              "text": "Get Pokemons",
             },
             "ref": null,
-            "rendered": "Get Pokemons",
+            "rendered": null,
             "type": [Function],
           },
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
-              "children": "Delete Pokemons",
-              "color": "primary",
               "onClick": [Function],
-              "variant": "outlined",
+              "text": "Delete Pokemons",
             },
             "ref": null,
-            "rendered": "Delete Pokemons",
+            "rendered": null,
             "type": [Function],
           },
         ],
@@ -171,20 +153,15 @@ ShallowWrapper {
                     }
                     xs={12}
           >
-                    <WithStyles(Button)
-                              color="primary"
+                    <Unknown
+                              green={true}
                               onClick={[Function]}
-                              variant="outlined"
-                    >
-                              Get Pokemons
-                    </WithStyles(Button)>
-                    <WithStyles(Button)
-                              color="primary"
+                              text="Get Pokemons"
+                    />
+                    <Unknown
                               onClick={[Function]}
-                              variant="outlined"
-                    >
-                              Delete Pokemons
-                    </WithStyles(Button)>
+                              text="Delete Pokemons"
+                    />
           </WithStyles(Grid)>
 </Unknown>,
         "className": "App",
@@ -212,20 +189,15 @@ ShallowWrapper {
             }
             xs={12}
 >
-            <WithStyles(Button)
-                        color="primary"
+            <Unknown
+                        green={true}
                         onClick={[Function]}
-                        variant="outlined"
-            >
-                        Get Pokemons
-            </WithStyles(Button)>
-            <WithStyles(Button)
-                        color="primary"
+                        text="Get Pokemons"
+            />
+            <Unknown
                         onClick={[Function]}
-                        variant="outlined"
-            >
-                        Delete Pokemons
-            </WithStyles(Button)>
+                        text="Delete Pokemons"
+            />
 </WithStyles(Grid)>,
         },
         "ref": null,
@@ -235,20 +207,15 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <WithStyles(Button)
-                color="primary"
+              <Unknown
+                green={true}
                 onClick={[Function]}
-                variant="outlined"
->
-                Get Pokemons
-</WithStyles(Button)>,
-              <WithStyles(Button)
-                color="primary"
+                text="Get Pokemons"
+/>,
+              <Unknown
                 onClick={[Function]}
-                variant="outlined"
->
-                Delete Pokemons
-</WithStyles(Button)>,
+                text="Delete Pokemons"
+/>,
             ],
             "item": true,
             "style": Object {
@@ -262,29 +229,26 @@ ShallowWrapper {
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": "Get Pokemons",
-                "color": "primary",
+                "green": true,
                 "onClick": [Function],
-                "variant": "outlined",
+                "text": "Get Pokemons",
               },
               "ref": null,
-              "rendered": "Get Pokemons",
+              "rendered": null,
               "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "class",
+              "nodeType": "function",
               "props": Object {
-                "children": "Delete Pokemons",
-                "color": "primary",
                 "onClick": [Function],
-                "variant": "outlined",
+                "text": "Delete Pokemons",
               },
               "ref": null,
-              "rendered": "Delete Pokemons",
+              "rendered": null,
               "type": [Function],
             },
           ],

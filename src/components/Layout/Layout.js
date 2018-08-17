@@ -1,8 +1,11 @@
 import React, {Component, Fragment} from 'react'
 import PropTypes from 'prop-types'
-import {Button, Grid, LinearProgress} from '@material-ui/core'
+import {Grid, LinearProgress} from '@material-ui/core'
 import styled from 'styled-components'
 
+import {Button} from '../UI'
+
+import styles from './Layout.scss'
 import PokemonsListContainer from '../../containers/PokemonListContainer/PokemonListContainer'
 
 const StyledGrid = styled(Grid)`
@@ -45,20 +48,8 @@ class Layout extends Component {
         xs={12}
         style={{display: 'flex', justifyContent: 'space-between'}}
       >
-        <Button
-          variant="outlined"
-          color="primary"
-          onClick={this.onGetPokemonsHandler}
-        >
-          Get Pokemons
-        </Button>
-        <Button
-          variant="outlined"
-          color="primary"
-          onClick={this.onDeletePokemonsHandler}
-        >
-          Delete Pokemons
-        </Button>
+        <Button text="Get Pokemons" green onClick={this.onGetPokemonsHandler} />
+        <Button text="Delete Pokemons" onClick={this.onDeletePokemonsHandler} />
       </Grid>
     )
     switch (step) {
@@ -69,11 +60,11 @@ class Layout extends Component {
         content = (
           <Fragment>
             {buttons}
-            <Grid item xs={12}>
+            <Grid item xs={12} className={styles.Container}>
               {!loading ? (
                 <PokemonsListContainer pokemons={pokemons} />
               ) : (
-                <LinearProgress />
+                <LinearProgress color="primary" />
               )}
             </Grid>
           </Fragment>

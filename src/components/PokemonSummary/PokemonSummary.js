@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
+import styles from './PokemonSummary.scss'
 import {LinearProgress, Card, CardContent, Typography} from '@material-ui/core'
 
 const PokemonSummary = props => {
   const {details, loading} = props
   const html = (
     <Card>
-      <CardContent>
+      <CardContent className={styles.Summary}>
         <Typography variant="subheading" style={{margin: 10}}>
           {` Height: ${details.height}, Weight: ${details.weight}`}
         </Typography>
@@ -16,7 +18,7 @@ const PokemonSummary = props => {
       </CardContent>
     </Card>
   )
-  const content = !loading ? html : <LinearProgress />
+  const content = !loading ? html : <LinearProgress color="secondary" />
   return content
 }
 

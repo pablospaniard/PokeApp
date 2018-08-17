@@ -1,17 +1,16 @@
 import React from 'react'
-import {render, cleanup} from 'react-testing-library'
+import {shallow} from 'enzyme'
 import PokemonSummary from './PokemonSummary'
 
 describe('PokemonSummary will render properly', () => {
   const loading = false
   const details = {}
 
-  afterEach(cleanup)
-
+  let wrapper
+  beforeEach(() => {
+    wrapper = shallow(<PokemonSummary details={details} loading={loading} />)
+  })
   it('match snapshot', () => {
-    const {container} = render(
-      <PokemonSummary details={details} loading={loading} />
-    )
-    expect(container.firstChild).toMatchSnapshot('PokemonSummary_snapshot_1')
+    expect(wrapper).toMatchSnapshot('PokemonSummary_snapshot_1')
   })
 })

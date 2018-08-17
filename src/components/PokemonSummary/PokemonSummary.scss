@@ -1,0 +1,18 @@
+@import '../../scss/vars.scss';
+.Summary {
+  background-color: $blue;
+  &:hover {
+    animation: summary 3s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes summary {
+  0% {
+    background-color: #4698cb;
+  }
+  100% {
+    background-color: #ff4136;
+  }
+}

@@ -1,0 +1,30 @@
+@import '../../../scss/vars.scss';
+.Button {
+  background-color: $red;
+  width: 200px;
+  border: 1px solid $white;
+  border-radius: 5px;
+  margin: 10px;
+  outline: none;
+  transition: 0.2s all ease-in;
+  &:hover {
+    background-color: lighten($red, 30%) !important;
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+    outline: none;
+  }
+  &_Green {
+    @extend .Button;
+    background-color: $green;
+    &:hover {
+      background-color: lighten($green, 30%) !important;
+    }
+  }
+}
+
+.Text {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: $white;
+  transition: 1s all ease-in;
+}

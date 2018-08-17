@@ -1,0 +1,22 @@
+@import '../../scss/vars.scss';
+.ListItem {
+  border: 1px solid $black;
+  margin: 5px auto;
+  background-color: $grey;
+  &:hover {
+    background-color: $white;
+  }
+}
+
+.Text {
+  text-align: center;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.Disabled {
+  cursor: not-allowed;
+  &:hover {
+    background-color: $grey !important;
+  }
+}

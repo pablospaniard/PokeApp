@@ -31,21 +31,20 @@ ShallowWrapper {
       "children": Array [
         <WithStyles(Grid)>
           <WithStyles(ListItem)
+                    className=" undefined null"
                     onClick={[Function]}
           >
-                    <Styled(WithStyles(ListItemText))
-                              style={
-                                        Object {
-                                                  "cursor": "pointer",
-                                                  "textAlign": "center",
-                                                }
-                              }
+                    <WithStyles(ListItemText)
+                              className={undefined}
                     >
                               blablabla
-                    </Styled(WithStyles(ListItemText))>
+                    </WithStyles(ListItemText)>
           </WithStyles(ListItem)>
 </WithStyles(Grid)>,
       ],
+      "style": Object {
+        "padding": 0,
+      },
     },
     "ref": null,
     "rendered": Array [
@@ -56,18 +55,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <WithStyles(ListItem)
+              className=" undefined null"
               onClick={[Function]}
 >
-              <Styled(WithStyles(ListItemText))
-                            style={
-                                          Object {
-                                                        "cursor": "pointer",
-                                                        "textAlign": "center",
-                                                      }
-                            }
+              <WithStyles(ListItemText)
+                            className={undefined}
               >
                             blablabla
-              </Styled(WithStyles(ListItemText))>
+              </WithStyles(ListItemText)>
 </WithStyles(ListItem)>,
             null,
           ],
@@ -79,16 +74,12 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "children": <Styled(WithStyles(ListItemText))
-                style={
-                                Object {
-                                                "cursor": "pointer",
-                                                "textAlign": "center",
-                                              }
-                }
+              "children": <WithStyles(ListItemText)
+                className={undefined}
 >
                 blablabla
-</Styled(WithStyles(ListItemText))>,
+</WithStyles(ListItemText)>,
+              "className": " undefined null",
               "onClick": [Function],
             },
             "ref": null,
@@ -98,10 +89,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": "blablabla",
-                "style": Object {
-                  "cursor": "pointer",
-                  "textAlign": "center",
-                },
+                "className": undefined,
               },
               "ref": null,
               "rendered": "blablabla",
@@ -125,21 +113,20 @@ ShallowWrapper {
         "children": Array [
           <WithStyles(Grid)>
             <WithStyles(ListItem)
+                        className=" undefined null"
                         onClick={[Function]}
             >
-                        <Styled(WithStyles(ListItemText))
-                                    style={
-                                                Object {
-                                                            "cursor": "pointer",
-                                                            "textAlign": "center",
-                                                          }
-                                    }
+                        <WithStyles(ListItemText)
+                                    className={undefined}
                         >
                                     blablabla
-                        </Styled(WithStyles(ListItemText))>
+                        </WithStyles(ListItemText)>
             </WithStyles(ListItem)>
 </WithStyles(Grid)>,
         ],
+        "style": Object {
+          "padding": 0,
+        },
       },
       "ref": null,
       "rendered": Array [
@@ -150,18 +137,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <WithStyles(ListItem)
+                className=" undefined null"
                 onClick={[Function]}
 >
-                <Styled(WithStyles(ListItemText))
-                                style={
-                                                Object {
-                                                                "cursor": "pointer",
-                                                                "textAlign": "center",
-                                                              }
-                                }
+                <WithStyles(ListItemText)
+                                className={undefined}
                 >
                                 blablabla
-                </Styled(WithStyles(ListItemText))>
+                </WithStyles(ListItemText)>
 </WithStyles(ListItem)>,
               null,
             ],
@@ -173,16 +156,12 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <Styled(WithStyles(ListItemText))
-                  style={
-                                    Object {
-                                                      "cursor": "pointer",
-                                                      "textAlign": "center",
-                                                    }
-                  }
+                "children": <WithStyles(ListItemText)
+                  className={undefined}
 >
                   blablabla
-</Styled(WithStyles(ListItemText))>,
+</WithStyles(ListItemText)>,
+                "className": " undefined null",
                 "onClick": [Function],
               },
               "ref": null,
@@ -192,10 +171,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": "blablabla",
-                  "style": Object {
-                    "cursor": "pointer",
-                    "textAlign": "center",
-                  },
+                  "className": undefined,
                 },
                 "ref": null,
                 "rendered": "blablabla",
